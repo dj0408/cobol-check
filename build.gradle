@@ -17,7 +17,7 @@ def approvalActualOutput = "output/testResults.txt"
 sonarqube {
     properties {
         property "sonar.projectKey", "gradlecoverage"
-        property "sonar.organization", "neopragma-github"
+     //   property "sonar.organization", "neopragma-github"
         property "sonar.host.url", "http://34.204.68.175:9000/"
         property "sonar.login", "ff778dcecc8ad2a6e84413179e9abc0c25ca19f7"
         property "sonar.password" , "admin"
